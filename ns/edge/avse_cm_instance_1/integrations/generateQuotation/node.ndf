@@ -463,12 +463,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="lastModifiedBy">kalpshekhar.gupta@softwareag.com</value>
-    <value name="lastModifiedDate">1696691118134</value>
+    <value name="lastModifiedBy">avse</value>
+    <value name="lastModifiedDate">1696966861956</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">c2d6da09a336408da0e029e5d85ee382</value>
+      <value name="group">default</value>
+      <value name="name">cm_avse_instance_1</value>
     </record>
     <value name="displayName">generateQuotation</value>
     <value name="description">Wrapper for the flowservice in custom imported package so it can be invoked inside workflow.</value>
@@ -490,7 +490,7 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">ALL</value>
