@@ -1,10 +1,25 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.avse_cm_instance_1.integrations:generateQuotation
+  packages:
+  - name: EdgeAvse_cm_instance_1
+    version: "1.0"
+- serviceName: gp.order.management.services:generateQuote
+  packages:
+  - name: EdgeAvse_cm_instance_1
+    version: "1.0"
 packages:
 - name: EdgeAvse_cm_instance_1
   gitServerName: selvi_github
   gitUrl: https://github.com/AvudaiSelvi/EdgeAvse_cm_instance_1
   gitUsername: AvudaiSelvi
   gitToken: edge.scaffolding.EdgeAvse_cm_instance_1.selvi_github.gitToken
+  gitBranch: main
+- name: GP01_OrderManagement-master
+  gitServerName: SelviGitHub
+  gitUrl: https://github.com/AvudaiSelvi
+  gitUsername: AvudaiSelvi
+  gitToken: edge.scaffolding.GP01_OrderManagement-master.SelviGitHub.gitToken
   gitBranch: main

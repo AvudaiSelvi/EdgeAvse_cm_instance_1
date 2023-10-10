@@ -464,7 +464,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">avse</value>
-    <value name="lastModifiedDate">1696966861956</value>
+    <value name="lastModifiedDate">1696967436260</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c2d6da09a336408da0e029e5d85ee382</value>
       <value name="group">default</value>
@@ -490,11 +490,23 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
-        <Boolean name="serviceReferenceResolved">false</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">GP01_OrderManagement-master</value>
+          <value name="groupName">GP01_OrderManagement-master;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">gp.order.management.services:generateQuote</value>
+          <value name="serviceName">gp.order.management.services:generateQuote</value>
+          <value name="displayName">generateQuote</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
