@@ -464,11 +464,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">avse</value>
-    <value name="lastModifiedDate">1696970509797</value>
+    <value name="lastModifiedDate">1696970522713</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">default</value>
+      <value name="id">c2d6da09a336408da0e029e5d85ee382</value>
       <value name="group">default</value>
-      <value name="name">Default (Cloud)</value>
+      <value name="name">cm_avse_instance_1</value>
     </record>
     <value name="displayName">generateQuotation</value>
     <value name="description">Wrapper for the flowservice in custom imported package so it can be invoked inside workflow.</value>
